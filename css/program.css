@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font: 15px "Ubuntu", Arial, sans-seriff;
+    background-color: #fff;
+
+    overflow-x: hidden;
+}
+
+/*general container*/
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    margin-top: 1rem;
+}
+
+#mainpage{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+
+#about h2, #objective h2, #dates h2{
+    font-size: 30px;
+    margin: 1rem 0;
+}
+
+#dates{
+    margin-left: 2rem;
+}
+
+#dates a{
+    color: rgb(23, 113, 231);
+    text-decoration: none;
+}
+
+#dates table{
+    margin-top: 0.8rem;
+}
+
+#dates table td{
+    width: 550px;
+    padding: 10px;
+    text-align: center;
+
+    border-radius: 5px;
+}
+
+#dates #hour{
+    width: 3rem;
+}
+
+.color{
+    background-color: rgb(229, 236, 236);
+}
+
+#container #dates, #review{
+    margin-top: 2rem;
+    border-radius: 5px;
+    padding: 1rem 1rem;
+    line-height: 3rem;
+}
